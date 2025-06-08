@@ -90,10 +90,10 @@
 
         </section>
         <!-- modal section start-->
-        <button class="btn" onclick="customModal.showModal()">open modal</button>
+        <button class="btn hidden" onclick="customModal.showModal()">open modal</button>
         <dialog id="customModal" class="modal">
             <div class="modal-box">
-                <div id="details-container" class="text-center" >
+                <div id="details-container" class="text-center">
 
                 </div>
                 <div class="modal-action">
@@ -106,8 +106,42 @@
         </dialog>
         <!-- modal section end-->
     </main>
-    <footer>
-
+    <footer class="bg-black text-white mt-10 ">
+        <div class="container mx-auto p-9 grid sm:grid-cols-1 md:grid-cols-3">
+            <!-- first column -->
+            <div>
+                <div class="flex items-center gap-4 mb-6">
+                    <img src="images/logo.webp" alt="">
+                    <h1 class="text-3xl font-black">Peddy</h1>
+                </div>
+                <li class="text-gray-500">Location: av. Washington <br>165, NY CA 54003</li>
+                <li class="text-gray-500">Phone: +31 85 964 47 25</li>
+                <li class="text-gray-500">Email: info@yourdomain.com</li>
+                <li class="text-gray-500">Email: info@yourdomain.com</li>
+                <li class="flex gap-2 items-center">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+            </div>
+            <!-- second column -->
+            <div>
+                <nav class="flex flex-col p-6 md:p-0">
+                    <h6 class="footer-title">Company</h6>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+            </div>
+            <nav class="flex flex-col p-6 md:p-0">
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+        </div>
     </footer>
     <script src="js/script.js"></script>
 </body>
