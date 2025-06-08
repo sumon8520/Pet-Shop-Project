@@ -1,0 +1,7 @@
+.parent-container {
+    padding: 6px;
+    overflow: hidden;
+    border: 1px solid gray;
+    width: 300px;
+    margin: 0 auto;
+}
